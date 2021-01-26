@@ -1,0 +1,7 @@
+<script>
+  const fzbz = n => [n, "Fizz", "Buzz", "FizzBuzz"][(n%3==0)+((n%5==0)*2)];
+
+  for(let i=0;i<31;i++){
+    console.log(i, fzbz(i));
+  }
+</script>
